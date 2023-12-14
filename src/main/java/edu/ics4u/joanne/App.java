@@ -1,13 +1,15 @@
 package edu.ics4u.joanne;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+
+    public static void main(String[] args) {
+        // Utilisation de la fabrique de voiture
+        MotorVehicleFactory carFactory = new CarFactory();
+        carFactory.create();
+
+        // Utilisation de la fabrique de moto
+        MotorVehicleFactory motorcycleFactory = new MotorcycleFactory();
+        motorcycleFactory.create();
     }
 }
+
