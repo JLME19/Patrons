@@ -10,6 +10,12 @@ Nom du patron: Methode frabrique
 
  Concepts OOP :
     L'utilisation de l'héritage dans le patron :
+     La Fabrique est basée sur l’héritage
+
+
+
+
+
     L'utilisation d'interfaces dans le patron:
     L'utilisation du polymorphisme dans le patron:
     L'utilisation de composition dans le patron:
