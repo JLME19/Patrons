@@ -1,6 +1,6 @@
 edu/ics4u/joanne/Motorcycle.class
-edu/ics4u/joanne/MotorcycleFactory.class
 edu/ics4u/joanne/App.class
+edu/ics4u/joanne/MotorcycleFactory.class
 edu/ics4u/joanne/MotorVehicle.class
 edu/ics4u/joanne/CarFactory.class
 edu/ics4u/joanne/MotorVehicleFactory.class
