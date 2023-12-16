@@ -18,11 +18,15 @@ Dans le patron de conception Fabrique, l'héritage est souvent utilisé pour cr�
     
    ### L'utilisation d'interfaces dans le patron:
        
- Les interfaces définissent des règles que les classes concrètes doivent suivre. Dans le patron de conception Fabrique, l'interface MotorVehicle est un exemple. Les classes concrètes (comme Car et Motorcycle) respectent ces règles en implémentant l'interface, assurant ainsi qu'elles fournissent une méthode build().
+   Les interfaces définissent des règles que les classes concrètes doivent suivre. Dans le patron de conception Fabrique, l'interface MotorVehicle est un exemple. Les classes concrètes (comme Car et Motorcycle) respectent ces règles en implémentant l'interface, assurant ainsi qu'elles fournissent une méthode build().
 
 
-    L'utilisation du polymorphisme dans le patron:
-    L'utilisation de composition dans le patron:
+   ### L'utilisation du polymorphisme dans le patron:
+   Le polymorphisme fait référence à la capacité d’appeler la même méthode sur des objets de types différents et d’obtenir des résultats différents.Ainsi,le polymorphisme est largement utilisé dans ce patron de conception Fabrique. Par exemple, le polymorphisme est utilisé lorsque qu'ont appele la méthode create() sur une instance de MotorVehicleFactory. Cette méthode retourne un objet de type MotorVehicle, qui peut être une instance de n'importe quelle classe implémentant l'interface MotorVehicle.
+
+  ### L'utilisation de composition dans le patron:
+
+
 
 
      
