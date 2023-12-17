@@ -12,7 +12,7 @@
 ## Concepts OOP :
    ### L'utilisation de l'héritage dans le patron :
     
-Dans ce patron de conception, l'héritage est souvent utilisé pour créer des sous-classes de la classe abstraite MotorVehicleFactory dans l'implementation, pour chaque type de «produit» (CarFactory et MotorcycleFactory). Ces sous-classes héritent de la logique générale de la création fournie par la classe de fabrique abstraite tout en permettant la création de types de produits spécifiques.
+Dans ce patron de conception, l'héritage est souvent utilisé pour créer des sous-classes de la classe abstraite MotorVehicleFactory dans l'implementation, pour chaque type de «produit» (CarFactory et MotorcycleFactory). Ces sous-classes héritent de la logique générale de la création qui vient de la classe de fabrique abstraite tout en permettant la création de types de vehicule spécifiques.
 
       
     
@@ -26,16 +26,22 @@ Dans ce patron de conception, l'héritage est souvent utilisé pour créer des s
 
   ### L'utilisation de composition dans le patron:
       
-   La composition ne pas utilisé dans l'implémentation actuelle du patron de conception Fabrique. Dans cette exemple j'utilise plus l'héritage, avec des classes abstraites et des sous-classes pour créer des objets spécifiques.
+   La composition ne pas utilisé dans l'implémentation de cette exemple du patron de conception Fabrique. Dans cette exemple j'utilise l'héritage, avec des classes abstraites et des sous-classes pour créer des objets spécifiques.
 
 
 
 
 
   ### Sources : 
-  Baeldung: https://www.baeldung.com/java-factory-pattern
+  Baeldung (la source de mon implementation): https://www.baeldung.com/java-factory-pattern
 
   Refactoring Guru : https://refactoring.guru/fr/design-patterns/factory-method
+ 
+  Le note des cours:https://physcrowley.github.io/ICS4U/u4-OOP2.html
+
+  Derek Banas,Factory Design Pattern : https://www.youtube.com/watch?v=ub0DXaeV6hA&list=PLF206E906175C7E07&index=5&t=627s
+
+
   
   
        
