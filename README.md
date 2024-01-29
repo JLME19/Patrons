@@ -45,8 +45,13 @@ Dans ce patron de conception, l'héritage est souvent utilisé pour créer des s
 ### Évaluation
 
 4++ 4+
+
 o CO - Les identifiants (variables et méthodes), les commentaires, les javadoc et l'indentation rendent le code facile à lire
+
 o CO - Les informations dans le README sont bien structurées et faciles à lire. (excellent)
+
 x MA - Le diagramme de classe UML est cohérent avec votre implémentation du patron. (manque les traits simples pour indiquer qu'une classe utilise une autre : entre MotorVehicleFactory et MotorVehicle et entre MotorVehicleFactory et App)
+
 o MA - Votre analyse démontre votre capacité à reconnaître les concepts de l'OOP dans un contexte concret. (excellentes explications)
+
 o MA - Le travail correspond entièrement aux spécifications du projet.
